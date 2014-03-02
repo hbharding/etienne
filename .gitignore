@@ -30,7 +30,7 @@ Thumbs.db
 
 # Ignore for Jekyll projects #
 _site
-_bower_components
+bower_components
 dist
 node_modules
 .tmp
