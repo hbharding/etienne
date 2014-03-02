@@ -1,0 +1,488 @@
+/* line 17, ../../../../../../usr/local/Cellar/ruby/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../usr/local/Cellar/ruby/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../usr/local/Cellar/ruby/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../usr/local/Cellar/ruby/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../usr/local/Cellar/ruby/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../usr/local/Cellar/ruby/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../usr/local/Cellar/ruby/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../usr/local/Cellar/ruby/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../usr/local/Cellar/ruby/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, ../sass/main.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* line 25, ../sass/main.scss */
+body {
+  font-family: "Merriweather";
+}
+
+/* line 30, ../sass/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato";
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+
+/* line 37, ../sass/main.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 39, ../sass/main.scss */
+p {
+  font-size: 1em;
+  margin-bottom: 1.6em;
+}
+
+/* line 44, ../sass/main.scss */
+a {
+  text-decoration: none;
+  color: #00c1d6;
+}
+
+/* line 49, ../sass/main.scss */
+.thin {
+  font-weight: 100;
+}
+
+/* line 51, ../sass/main.scss */
+#logo {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: .5em;
+  left: .5em;
+  background: #000;
+  width: 1.8em;
+  height: 1.8em;
+  line-height: 1.8em;
+  font-size: 1.4em;
+  text-align: center;
+}
+/* line 64, ../sass/main.scss */
+#logo span {
+  color: #fff;
+  font-family: 'Lato';
+  font-weight: 900;
+}
+
+/* line 72, ../sass/main.scss */
+nav {
+  display: none;
+  width: 100%;
+}
+/* line 75, ../sass/main.scss */
+nav.bottom {
+  position: absolute;
+  bottom: 0;
+}
+/* line 80, ../sass/main.scss */
+nav menu {
+  margin: 0 auto;
+  padding: 0 1em;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 380px) {
+  /* line 80, ../sass/main.scss */
+  nav menu {
+    font-size: 1.2em;
+    text-align: center;
+  }
+}
+/* line 91, ../sass/main.scss */
+nav li {
+  display: inline-block;
+}
+/* line 94, ../sass/main.scss */
+nav li a {
+  font-family: "Lato";
+  font-size: .8em;
+  display: block;
+  padding: 1.8em 1em;
+  width: 100%;
+  font-size: .8em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in false;
+  -o-transition: all 0.2s ease-in false;
+  transition: all 0.2s ease-in;
+}
+
+@-webkit-keyframes slideBg {
+  /* line 113, ../sass/main.scss */
+  0% {
+    background-position: 0vw center;
+  }
+
+  /* line 116, ../sass/main.scss */
+  100% {
+    background-position: -200vw center;
+  }
+}
+
+@-moz-keyframes slideBg {
+  /* line 113, ../sass/main.scss */
+  0% {
+    background-position: 0vw center;
+  }
+
+  /* line 116, ../sass/main.scss */
+  100% {
+    background-position: -200vw center;
+  }
+}
+
+@-o-keyframes slideBg {
+  /* line 113, ../sass/main.scss */
+  0% {
+    background-position: 0vw center;
+  }
+
+  /* line 116, ../sass/main.scss */
+  100% {
+    background-position: -200vw center;
+  }
+}
+
+@keyframes slideBg {
+  /* line 113, ../sass/main.scss */
+  0% {
+    background-position: 0vw center;
+  }
+
+  /* line 116, ../sass/main.scss */
+  100% {
+    background-position: -200vw center;
+  }
+}
+
+@media (min-width: 786px) {
+  @-webkit-keyframes slideBg {
+    /* line 123, ../sass/main.scss */
+    0% {
+      background-position: 0vw center;
+    }
+
+    /* line 126, ../sass/main.scss */
+    100% {
+      background-position: -150vw center;
+    }
+}
+
+  @-moz-keyframes slideBg {
+    /* line 123, ../sass/main.scss */
+    0% {
+      background-position: 0vw center;
+    }
+
+    /* line 126, ../sass/main.scss */
+    100% {
+      background-position: -150vw center;
+    }
+}
+
+  @-o-keyframes slideBg {
+    /* line 123, ../sass/main.scss */
+    0% {
+      background-position: 0vw center;
+    }
+
+    /* line 126, ../sass/main.scss */
+    100% {
+      background-position: -150vw center;
+    }
+}
+
+  @keyframes slideBg {
+    /* line 123, ../sass/main.scss */
+    0% {
+      background-position: 0vw center;
+    }
+
+    /* line 126, ../sass/main.scss */
+    100% {
+      background-position: -150vw center;
+    }
+}
+}
+@media (min-width: 1186px) {
+  @-webkit-keyframes slideBg {
+    /* line 134, ../sass/main.scss */
+    0% {
+      background-position: 0vw center;
+    }
+
+    /* line 137, ../sass/main.scss */
+    100% {
+      background-position: -100vw center;
+    }
+}
+
+  @-moz-keyframes slideBg {
+    /* line 134, ../sass/main.scss */
+    0% {
+      background-position: 0vw center;
+    }
+
+    /* line 137, ../sass/main.scss */
+    100% {
+      background-position: -100vw center;
+    }
+}
+
+  @-o-keyframes slideBg {
+    /* line 134, ../sass/main.scss */
+    0% {
+      background-position: 0vw center;
+    }
+
+    /* line 137, ../sass/main.scss */
+    100% {
+      background-position: -100vw center;
+    }
+}
+
+  @keyframes slideBg {
+    /* line 134, ../sass/main.scss */
+    0% {
+      background-position: 0vw center;
+    }
+
+    /* line 137, ../sass/main.scss */
+    100% {
+      background-position: -100vw center;
+    }
+}
+}
+/* line 143, ../sass/main.scss */
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: 200vw auto;
+  background-position: center;
+  background-image: url("../img/baby.jpg");
+  opacity: .8;
+}
+@media (min-width: 786px) {
+  /* line 143, ../sass/main.scss */
+  .bg-image {
+    background-size: 150vw auto;
+  }
+}
+@media (min-width: 1186px) {
+  /* line 143, ../sass/main.scss */
+  .bg-image {
+    background-size: 100vw auto;
+  }
+}
+/* line 160, ../sass/main.scss */
+.bg-image.animate.active {
+  -webkit-animation-name: slideBg;
+  -moz-animation-name: slideBg;
+  animation-name: slideBg;
+  -webkit-animation-duration: 30s;
+  -moz-animation-duration: 30s;
+  animation-duration: 30s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+/* line 167, ../sass/main.scss */
+.bg-image img {
+  display: none;
+  width: 100%;
+  margin: -30px;
+  -webkit-filter: blur(30px);
+  -moz-filter: blur(30px);
+  filter: blur(30px);
+}
+
+/* line 178, ../sass/main.scss */
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+
+/* line 185, ../sass/main.scss */
+.wrapper {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 4em 1em 2em;
+}
+/* line 191, ../sass/main.scss */
+.wrapper.center {
+  padding: 0;
+  width: auto;
+}
+
+/* line 198, ../sass/main.scss */
+.table {
+  display: table;
+}
+/* line 200, ../sass/main.scss */
+.table .cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 208, ../sass/main.scss */
+#header {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  min-height: 300px;
+}
+/* line 215, ../sass/main.scss */
+#header hgroup {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #001c1f;
+}
+/* line 223, ../sass/main.scss */
+#header hgroup h1 {
+  font-weight: 900;
+  line-height: 1.6;
+  font-size: 2em;
+  margin: 0;
+}
+/* line 231, ../sass/main.scss */
+#header hgroup p {
+  font-family: "Lato";
+  font-size: 1em;
+  line-height: 1;
+}
+/* line 238, ../sass/main.scss */
+#header hgroup a {
+  color: #001c1f;
+}
+@media (min-width: 380px) {
+  /* line 243, ../sass/main.scss */
+  #header hgroup h1 {
+    font-size: 3em;
+  }
+  /* line 244, ../sass/main.scss */
+  #header hgroup p {
+    font-size: 1em;
+  }
+}
+@media (min-width: 640px) {
+  /* line 247, ../sass/main.scss */
+  #header hgroup h1 {
+    font-size: 5em;
+  }
+  /* line 248, ../sass/main.scss */
+  #header hgroup p {
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 760px) {
+  /* line 251, ../sass/main.scss */
+  #header hgroup h1 {
+    font-size: 8em;
+  }
+  /* line 252, ../sass/main.scss */
+  #header hgroup p {
+    font-size: 1.4em;
+  }
+}
+/* line 256, ../sass/main.scss */
+#header nav a {
+  color: #00c1d6;
+}
+
+/* line 261, ../sass/main.scss */
+section.body {
+  font-size: 1em;
+  color: #001c1f;
+}
+/* line 266, ../sass/main.scss */
+section.body p {
+  line-height: 1.5;
+}
+@media (min-width: 640px) {
+  /* line 261, ../sass/main.scss */
+  section.body {
+    font-size: 1.15em;
+  }
+  /* line 275, ../sass/main.scss */
+  section.body p {
+    line-height: 1.6;
+  }
+}
+@media (min-width: 760px) {
+  /* line 261, ../sass/main.scss */
+  section.body {
+    font-size: 1.3em;
+  }
+}
