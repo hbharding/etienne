@@ -94,7 +94,7 @@ p {
 /* line 45, ../sass/main.scss */
 a {
   text-decoration: none;
-  color: #00c1d6;
+  color: #02a4ff;
 }
 
 /* line 50, ../sass/main.scss */
@@ -670,30 +670,35 @@ section {
 }
 /* line 296, ../sass/main.scss */
 #header nav a {
-  color: #00c1d6;
+  color: #fff;
+  opacity: .5;
+}
+/* line 297, ../sass/main.scss */
+#header nav a:hover {
+  opacity: 1;
 }
 
-/* line 301, ../sass/main.scss */
+/* line 302, ../sass/main.scss */
 section.body {
   font-size: 1em;
   color: #001c1f;
 }
-/* line 306, ../sass/main.scss */
+/* line 307, ../sass/main.scss */
 section.body p {
   line-height: 1.5;
 }
 @media (min-width: 640px) {
-  /* line 301, ../sass/main.scss */
+  /* line 302, ../sass/main.scss */
   section.body {
     font-size: 1.15em;
   }
-  /* line 315, ../sass/main.scss */
+  /* line 316, ../sass/main.scss */
   section.body p {
     line-height: 1.6;
   }
 }
 @media (min-width: 760px) {
-  /* line 301, ../sass/main.scss */
+  /* line 302, ../sass/main.scss */
   section.body {
     font-size: 1.3em;
   }

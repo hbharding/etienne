@@ -5,7 +5,7 @@
 $green: #75F0AB;
 $blue: #02A4FF;
 $bgColor: #fff;
-$linkColor: #00C1D6;
+$linkColor: $blue;
 $bodyColor: #001C1F;
 
 $primaryFont: 'Lato';
@@ -293,7 +293,8 @@ section {
 		}
 	}
 	nav {
-		a { color: $linkColor; }
+		a { color: #fff; opacity: .5; }
+		a:hover { opacity: 1; }
 	}
 }
 
